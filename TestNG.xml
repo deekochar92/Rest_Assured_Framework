@@ -5,19 +5,24 @@
         <classes>
             <class name="com.tmdb.tests.GetTopRatedMovieTests">
                 <methods>
-                    <include name="verifyOKResponseForWithoutOptional_ValidPayload"/>
-                    <include name="verifyOKResponseForAllFields_ValidPayload"/>
-                    <include name="verifyErrorResponseForWithoutAPIKey_InValidPayload"/>
-                    <include name="verifyErrorResponseForInvalidAPIKey_InValidPayload"/>
-                    <include name="verifyErrorResponseForInvalidResource_InValidPayload"/>
-                    <include name="verifyErrorResponseForInvalidPageNumber_InValidPayload"/>
-                    <include name="verifyErrorResponseForInvalidLanguage_InValidPayload"/>
-                    <include name="verifyErrorResponseForInvalidRegion_InValidPayload"/>
+                    <include name="TC01_verifyOKResponse_WithoutOptional_ValidPayload"/>
+                    <include name="TC02_verifyOKResponse_AllFields_ValidPayload"/>
+                    <include name="TC03_verifyErrorResponse_WithoutAPIKey_InValidPayload"/>
+                    <include name="TC04_verifyErrorResponse_InvalidAPIKey_InValidPayload"/>
+                    <include name="TC05_verifyErrorResponse_InvalidResource_InValidPayload"/>
+                    <include name="TC06_verifyErrorResponse_InvalidPageNumber_InValidPayload"/>
+                    <include name="TC07_verifyErrorResponse_InvalidLanguage_InValidPayload"/>
+                    <include name="TC08_verifyErrorResponse_InvalidRegion_InValidPayload"/>
                 </methods>
             </class>
             <class name="com.tmdb.tests.PostRateMovieTests">
                 <methods>
-                    <include name="verifyOKResponseForValidPayload"/>
+                    <include name="TC01_verifyOKResponse_ForAllFields_ValidPayload"/>
+                    <include name="TC02_verifyErrorResponse_ForWithoutAPIKey_InValidPayload"/>
+                    <include name="TC03_verifyErrorResponse_ForWithoutSessionID_InValidPayload"/>
+                    <include name="TC04_verifyErrorResponse_ForInvalidMovieID_InValidPayload"/>
+                    <include name="TC05_verifyErrorResponse_ForInvalidSessionID_InValidPayload"/>
+                    <include name="TC06_verifyErrorResponse_ForInvalidApiKey_InValidPayload"/>
                 </methods>
             </class>
         </classes>

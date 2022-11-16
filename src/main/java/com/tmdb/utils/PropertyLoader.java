@@ -12,7 +12,7 @@ public class PropertyLoader {
 
     public  Properties initProperties() throws IOException {
         prop = new Properties();
-        FileInputStream ip = new FileInputStream("C:\\Users\\Deepanshu\\IdeaProjects\\TMDB_BYNDER\\src\\main\\resources\\config.properties");
+        FileInputStream ip = new FileInputStream("config.properties");
         prop.load(ip);
         return prop;
     }

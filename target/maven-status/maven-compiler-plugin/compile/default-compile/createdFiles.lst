@@ -1,0 +1,9 @@
+com\tmdb\pojos\TopRatedMovies.class
+com\tmdb\pojos\RateMovieResponse.class
+com\tmdb\utils\Specifications.class
+com\tmdb\pojos\TopRatedMovies_Results.class
+com\tmdb\pojos\RateMovieRequest.class
+com\tmdb\pojos\Error_Response.class
+com\tmdb\payloads\RateMoviePayload.class
+com\tmdb\payloads\TopRatedPayload.class
+com\tmdb\constants\Endpoints.class

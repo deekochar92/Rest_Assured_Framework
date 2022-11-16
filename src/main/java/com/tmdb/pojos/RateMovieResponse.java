@@ -9,6 +9,6 @@ import lombok.Setter;
 
 public class RateMovieResponse {
     private boolean success;
-    private String success_message;
+    private String status_message;
     private int status_code;
 }

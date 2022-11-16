@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Deepanshu/IdeaProjects/TMDB_BYNDER">
+        <classes>
+            <class name="com.tmdb.tests.GetTopRatedMovieTests">
+                <methods>
+                    <include name="verifyOKResponseForWithoutOptional_ValidPayload"/>
+                    <include name="verifyOKResponseForAllFields_ValidPayload"/>
+                    <include name="verifyErrorResponseForWithoutAPIKey_InValidPayload"/>
+                    <include name="verifyErrorResponseForInvalidAPIKey_InValidPayload"/>
+                    <include name="verifyErrorResponseForInvalidResource_InValidPayload"/>
+                    <include name="verifyErrorResponseForInvalidPageNumber_InValidPayload"/>
+                    <include name="verifyErrorResponseForInvalidLanguage_InValidPayload"/>
+                    <include name="verifyErrorResponseForInvalidRegion_InValidPayload"/>
+                </methods>
+            </class>
+            <class name="com.tmdb.tests.PostRateMovieTests">
+                <methods>
+                    <include name="verifyOKResponseForValidPayload"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

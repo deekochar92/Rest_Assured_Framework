@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 13.765 s <<< FAILURE! - in TestSuite
+com.tmdb.api.tests.GetTopRatedMovieTests.verifyOKResponseForAllFields_ValidPayload  Time elapsed: 0.285 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <10508>
+     but: was <9675>
+	at com.tmdb.api.tests.GetTopRatedMovieTests.verifyOKResponseForAllFields_ValidPayload(GetTopRatedMovieTests.java:25)
+
+com.tmdb.api.tests.GetTopRatedMovieTests.verifyErrorResponseForInvalidLanguage_InValidPayload  Time elapsed: 0.307 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at com.tmdb.api.tests.GetTopRatedMovieTests.verifyErrorResponseForInvalidLanguage_InValidPayload(GetTopRatedMovieTests.java:55)
+
+com.tmdb.api.tests.GetTopRatedMovieTests.verifyErrorResponseForInvalidRegion_InValidPayload  Time elapsed: 0.041 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at com.tmdb.api.tests.GetTopRatedMovieTests.verifyErrorResponseForInvalidRegion_InValidPayload(GetTopRatedMovieTests.java:60)
+
+com.tmdb.api.tests.PostRateMovieTests.verifyOKResponseForValidPayload  Time elapsed: 0.877 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.tmdb.api.tests.PostRateMovieTests.verifyOKResponseForValidPayload(PostRateMovieTests.java:17)
+

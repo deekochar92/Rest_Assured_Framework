@@ -10,5 +10,8 @@
         <module name="TMDB_BYNDER" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="allurereportexample" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

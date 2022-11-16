@@ -11,7 +11,6 @@ public class Specifications {
     public static RequestSpecification getRequestSpec() {
         RequestSpecification requestSpec = new RequestSpecBuilder().setBaseUri("https://api.themoviedb.org").
                 log(LogDetail.ALL).setContentType(ContentType.JSON).
-                addQueryParam("api_key", "8f27fe80f784cc088d44f642e123af30").
                 build();
         return requestSpec;
     }

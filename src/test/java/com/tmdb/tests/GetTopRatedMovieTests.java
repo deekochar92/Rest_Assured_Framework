@@ -22,20 +22,20 @@ public class GetTopRatedMovieTests {
 
     @Test(description = "Valid payload without optional fields - Should return 200 OK response")
     @Description("Valid payload without optional fields - Should return 200 OK response")
-    public void verifyOKResponseForWithoutOptional_ValidPayload() throws IOException {
+    public void TC01_verifyOKResponse_WithoutOptional_ValidPayload() throws IOException {
         movieResponse = TR.getTopRatedMoviesWithoutOptional_ValidPayload();
         assertThat(movieResponse.getResults().get(0).getOriginal_title(),equalTo("20 Century Girl"));
     }
     @Test(description = "Valid payload with All fields - Should return 200 OK response")
     @Description("Valid payload with All fields - Should return 200 OK response")
-    public void verifyOKResponseForAllFields_ValidPayload() throws IOException {
+    public void TC02_verifyOKResponse_AllFields_ValidPayload() throws IOException {
         movieResponse = TR.getTopRatedMoviesAllFields_ValidPayload();
         assertThat(movieResponse.getResults().get(0).getOriginal_title(),equalTo("The Godfather"));
 
     }
     @Test(description = "Invalid payload without APIKey - Should return 401 error response")
     @Description("Invalid payload without APIKey - Should return 401 error response")
-    public void verifyErrorResponseForWithoutAPIKey_InValidPayload() {
+    public void TC03_verifyErrorResponse_WithoutAPIKey_InValidPayload() {
         errorResponse = TR.getTopRatedMoviesWithoutAPIKey_InValidPayload();
         assertThat(errorResponse.getStatus_message(),equalTo("Invalid API key: You must be granted a valid key."));
     }
@@ -43,33 +43,33 @@ public class GetTopRatedMovieTests {
 
     @Test(description = "Invalid payload with Invalid APIKey - Should return 401 Unauthorised response")
     @Description("Invalid payload with Invalid APIKey - Should return 401 Unauthorised response")
-    public void verifyErrorResponseForInvalidAPIKey_InValidPayload() throws IOException {
+    public void TC04_verifyErrorResponse_InvalidAPIKey_InValidPayload() throws IOException {
         errorResponse = TR.getTopRatedMoviesInvalidAPIKey_InValidPayload();
         assertThat(errorResponse.getStatus_message(),equalTo("Invalid API key: You must be granted a valid key."));
     }
     @Test(description = "Invalid resource url  - Should return 404 resource not found response")
     @Description("Invalid resource url  - Should return 404 resource not found response")
-    public void verifyErrorResponseForInvalidResource_InValidPayload() throws IOException {
+    public void TC05_verifyErrorResponse_InvalidResource_InValidPayload() throws IOException {
         errorResponse = TR.getTopRatedMoviesInvalidResource_InValidPayload();
         assertThat(errorResponse.getStatus_message(),equalTo("The resource you requested could not be found."));
     }
 
     @Test(description = "Invalid payload with invalid page parameter  - Should return 422 error response")
     @Description("Invalid payload with invalid page parameter  - Should return 422 error response")
-    public void verifyErrorResponseForInvalidPageNumber_InValidPayload() throws IOException {
+    public void TC06_verifyErrorResponse_InvalidPageNumber_InValidPayload() throws IOException {
         errorResponse = TR.getTopRatedMoviesInvalidPageNumber_InValidPayload();
         assertThat(errorResponse.isSuccess(),equalTo(false));
     }
 
     @Test(description = "Invalid payload with invalid Language parameter  - Should return 400 error response")
     @Description("Invalid payload with invalid Language parameter  - Should return 400 error response")
-    public void verifyErrorResponseForInvalidLanguage_InValidPayload() {
+    public void TC07_verifyErrorResponse_InvalidLanguage_InValidPayload() {
         errorResponse = TR.getTopRatedMoviesInvalidLanguage_InValidPayload();
         assertThat(errorResponse.isSuccess(),equalTo(false));
     }
     @Test(description = "Invalid payload with invalid Region parameter  - Should return 400 error response")
     @Description("Invalid payload with invalid Region parameter  - Should return 400 error response")
-    public void verifyErrorResponseForInvalidRegion_InValidPayload() {
+    public void TC08_verifyErrorResponse_InvalidRegion_InValidPayload() {
         errorResponse = TR.getTopRatedMoviesInvalidRegion_InValidPayload();
         assertThat(errorResponse.isSuccess(),equalTo(false));
     }

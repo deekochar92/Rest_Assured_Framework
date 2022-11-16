@@ -19,38 +19,38 @@ public class PostRateMovieTests {
 
     @Test(description = "Valid payload  - Should return 200 OK response")
     @Description("Test Description: Valid payload  - Should return 200 OK response ")
-    public void verifyOKResponseForAllFields_ValidPayload() throws IOException {
+    public void TC01_verifyOKResponse_ForAllFields_ValidPayload() throws IOException {
         rate_movie_response = RM.postRateMovie_AllFields_ValidPayload( 7,851644);
         assertThat(rate_movie_response.isSuccess(), equalTo(true));
     }
     @Test(description = "Invalid payload without apikey  - Should return 401 Unauthorised response")
     @Description("Invalid payload without apikey  - Should return 401 Unauthorised response")
-    public void verifyErrorResponseForWithoutAPIKey_InValidPayload() throws IOException {
+    public void TC02_verifyErrorResponse_ForWithoutAPIKey_InValidPayload() throws IOException {
         errorResponse = RM.postRateMovie_withoutAPIKey_InvalidPayload( 7,851644);
         assertThat(rate_movie_response.isSuccess(),equalTo(false));
         }
 
     @Test(description = "Invalid payload without sessionID  - Should return 401 Unauthorised response")
     @Description("Invalid payload without sessionID  - Should return 401 Unauthorised response")
-    public void verifyErrorResponseForWithoutSessionID_InValidPayload() throws IOException {
+    public void TC03_verifyErrorResponse_ForWithoutSessionID_InValidPayload() throws IOException {
         errorResponse = RM.postRateMovie_withoutSessionID_InvalidPayload( 7,851644);
         assertThat(rate_movie_response.isSuccess(),equalTo(false));
     }
     @Test(description = "Invalid payload with invalid movieID  - Should return 404 Resource not found response")
     @Description("Invalid payload without sessionID  - Should return 401 Unauthorised response")
-    public void verifyErrorResponseForInvalidMovieID_InValidPayload() throws IOException {
+    public void TC04_verifyErrorResponse_ForInvalidMovieID_InValidPayload() throws IOException {
         errorResponse = RM.postRateMovie_InvalidMovieID_InvalidPayload( 7,1);
         assertThat(rate_movie_response.isSuccess(),equalTo(false));
     }
     @Test(description = "Invalid payload with invalid sessionID  - Should return 401 Unauthorised response")
     @Description("Invalid payload with invalid sessionID  - Should return 401 Unauthorised response")
-    public void verifyErrorResponseForInvalidSessionID_InValidPayload() throws IOException {
+    public void TC05_verifyErrorResponse_ForInvalidSessionID_InValidPayload() throws IOException {
         errorResponse = RM.postRateMovie_InvalidSessionID_InvalidPayload( 7,851644);
         assertThat(rate_movie_response.isSuccess(),equalTo(false));
     }
     @Test(description = "Invalid payload with invalid APIKey  - Should return 401 Unauthorised response")
     @Description("Invalid payload with invalid APIKey  - Should return 401 Unauthorised response")
-    public void verifyErrorResponseForInvalidApiKey_InValidPayload() throws IOException {
+    public void TC06_verifyErrorResponse_ForInvalidApiKey_InValidPayload() throws IOException {
         errorResponse = RM.postRateMovie_InvalidApiKey_InvalidPayload( 7,851644);
         assertThat(rate_movie_response.isSuccess(),equalTo(false));
     }

@@ -8,6 +8,6 @@ public class RateMovieRequest {
 @Getter @Setter
 @JsonIgnoreProperties(ignoreUnknown = true)
 
-private int value;
+private double value;
 
 }

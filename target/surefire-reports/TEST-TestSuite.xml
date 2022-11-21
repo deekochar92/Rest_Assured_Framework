@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.765" tests="9" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="31.981" tests="18" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Deepanshu\AppData\Local\Temp\surefire12717705938820240109\surefirebooter3820263170891790039.jar C:\Users\Deepanshu\AppData\Local\Temp\surefire12717705938820240109 2022-11-16T18-47-44_886-jvmRun1 surefire16752508047997417363tmp surefire_013290620091788564458tmp"/>
+    <property name="sun.java.command" value="C:\Users\Deepanshu\AppData\Local\Temp\surefire13451701156815501696\surefirebooter11666202431750671659.jar C:\Users\Deepanshu\AppData\Local\Temp\surefire13451701156815501696 2022-11-21T19-00-36_985-jvmRun1 surefire9190044370706166028tmp surefire_013911546900549056497tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Deepanshu\IdeaProjects\TMDB_BYNDER\target\test-classes;C:\Users\Deepanshu\IdeaProjects\TMDB_BYNDER\target\classes;C:\Users\Deepanshu\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Deepanshu\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Deepanshu\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Deepanshu\.m2\repository\io\qameta\allure\allure-testng\2.13.9\allure-testng-2.13.9.jar;C:\Users\Deepanshu\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\Deepanshu\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\Deepanshu\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Deepanshu\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\Deepanshu\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\Deepanshu\.m2\repository\io\qameta\allure\allure-test-filter\2.13.9\allure-test-filter-2.13.9.jar;C:\Users\Deepanshu\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Deepanshu\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Deepanshu\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Deepanshu\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Deepanshu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Deepanshu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Deepanshu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Deepanshu\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Deepanshu\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Deepanshu\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Deepanshu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Deepanshu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Deepanshu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Deepanshu\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Deepanshu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Deepanshu\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Deepanshu\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Deepanshu\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Deepanshu\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Deepanshu\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Deepanshu\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Deepanshu\AppData\Local\Temp\surefire12717705938820240109\surefirebooter3820263170891790039.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Deepanshu\AppData\Local\Temp\surefire13451701156815501696\surefirebooter11666202431750671659.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -48,14 +48,14 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-14.0.1\bin;D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;D:\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\bin;D:\Appium\platform-tools;D:\Appium\cmdline-tools\tools\bin;D:\Appium\cmdline-tools\tools;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\apache-maven-3.8.6\bin;C:\Users\Deepanshu\scoop\shims;C:\Users\Deepanshu\AppData\Roaming\ActiveState\bin;C:\Program Files (x86)\ActiveState Komodo IDE 12\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-14.0.1\bin;D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;D:\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\bin;D:\Appium\platform-tools;D:\Appium\cmdline-tools\tools\bin;D:\Appium\cmdline-tools\tools;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Azure Data Studio\bin;C:\Users\Deepanshu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.8.6\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-14.0.1\bin;D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;D:\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\bin;D:\Appium\platform-tools;D:\Appium\cmdline-tools\tools\bin;D:\Appium\cmdline-tools\tools;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\Deepanshu\scoop\shims;C:\Users\Deepanshu\AppData\Roaming\ActiveState\bin;C:\Program Files (x86)\ActiveState Komodo IDE 12\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-14.0.1\bin;D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;D:\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\bin;D:\Appium\platform-tools;D:\Appium\cmdline-tools\tools\bin;D:\Appium\cmdline-tools\tools;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Azure Data Studio\bin;C:\Users\Deepanshu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.8.6\bin;C:\Users\Deepanshu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Deepanshu\AppData\Roaming\npm;C:\Program Files\nodejs\;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="14.0.1+7"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="verifyOKResponseForWithoutOptional_ValidPayload" classname="com.tmdb.api.tests.GetTopRatedMovieTests" time="7.279">
+  <testcase name="TC01_verifyOKResponse_WithoutOptional_ValidPayload" classname="com.tmdb.tests.GetTopRatedMovieTests" time="15.708">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://api.themoviedb.org/3/movie/top_rated?api_key=8f27fe80f784cc088d44f642e123af30
 Proxy:			<none>
@@ -72,17 +72,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json;charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Wed, 16 Nov 2022 13:06:54 GMT
+Date: Mon, 21 Nov 2022 11:31:22 GMT
 Server: openresty
 Cache-Control: public, max-age=21600
 Content-Encoding: gzip
 Vary: Accept-Encoding,Accept-Encoding
 X-Cache: Hit from cloudfront
-Via: 1.1 fa2e5ce99fa4aa305faea3842c471a1c.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: DEL54-C4
+Via: 1.1 96a4883b278fc3b22dd3ef743bde6bc8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
 Alt-Svc: h3=":443"; ma=86400
-X-Amz-Cf-Id: MER0XU2GrwqohvA1b963ASR1JjZvNt3KLKzyXS6igo0Ii24lBamjaw==
-Age: 662
+X-Amz-Cf-Id: Sb0kOftAGgXpQxY-yusdyH0LxeL5I-NZJRDjxDLRy5f6aq1skKXdoA==
+Age: 7186
 Vary: Origin
 
 {
@@ -97,15 +97,15 @@ Vary: Origin
             ],
             "id": 851644,
             "original_language": "ko",
-            "original_title": "20 Century Girl",
+            "original_title": "20세기 소녀",
             "overview": "Yeon-du asks her best friend Bora to collect all the information she can about Baek Hyun-jin while she is away in the U.S. for heart surgery. Bora decides to get close to Baek's best friend, Pung Woon-ho first. However, Bora's clumsy plan unfolds in an unexpected direction. In 1999, a year before the new century, Bora, who turns seventeen, falls into the fever of first love.",
-            "popularity": 396.8,
+            "popularity": 447.405,
             "poster_path": "/od22ftNnyag0TTxcnJhlsu3aLoU.jpg",
             "release_date": "2022-10-06",
             "title": "20th Century Girl",
             "video": false,
-            "vote_average": 8.8,
-            "vote_count": 240
+            "vote_average": 8.7,
+            "vote_count": 254
         },
         {
             "adult": false,
@@ -118,13 +118,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Godfather",
             "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
-            "popularity": 106.976,
+            "popularity": 93.231,
             "poster_path": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
             "release_date": "1972-03-14",
             "title": "The Godfather",
             "video": false,
             "vote_average": 8.7,
-            "vote_count": 16906
+            "vote_count": 16927
         },
         {
             "adult": false,
@@ -137,13 +137,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Shawshank Redemption",
             "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
-            "popularity": 77.143,
+            "popularity": 85.163,
             "poster_path": "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
             "release_date": "1994-09-23",
             "title": "The Shawshank Redemption",
             "video": false,
             "vote_average": 8.7,
-            "vote_count": 22653
+            "vote_count": 22681
         },
         {
             "adult": false,
@@ -156,13 +156,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Godfather Part II",
             "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
-            "popularity": 56.576,
+            "popularity": 63.011,
             "poster_path": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
             "release_date": "1974-12-20",
             "title": "The Godfather Part II",
             "video": false,
             "vote_average": 8.6,
-            "vote_count": 10250
+            "vote_count": 10264
         },
         {
             "adult": false,
@@ -176,33 +176,13 @@ Vary: Origin
             "original_language": "zh",
             "original_title": "罗小黑战记",
             "overview": "In the bustling human world, spirits live peacefully with mankind. Luo Xiaohei, a young cat spirit, becomes a nomad after his forest home is destroyed. His natural talent soon attracts spirits and humans alike, but all of them have their own motivations.",
-            "popularity": 18.183,
+            "popularity": 11.586,
             "poster_path": "/aLv87NgRJUPkQ6sVLP72IisDdt4.jpg",
             "release_date": "2019-08-27",
             "title": "The Legend of Hei",
             "video": false,
             "vote_average": 8.6,
-            "vote_count": 208
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/vI3aUGTuRRdM7J78KIdW98LdxE5.jpg",
-            "genre_ids": [
-                35,
-                18,
-                10749
-            ],
-            "id": 19404,
-            "original_language": "hi",
-            "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
-            "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
-            "popularity": 27.416,
-            "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
-            "release_date": "1995-10-19",
-            "title": "Dilwale Dulhania Le Jayenge",
-            "video": false,
-            "vote_average": 8.6,
-            "vote_count": 3943
+            "vote_count": 209
         },
         {
             "adult": false,
@@ -216,13 +196,33 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Schindler's List",
             "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
-            "popularity": 53.519,
+            "popularity": 54.448,
             "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
             "release_date": "1993-12-15",
             "title": "Schindler's List",
             "video": false,
             "vote_average": 8.6,
-            "vote_count": 13444
+            "vote_count": 13457
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vI3aUGTuRRdM7J78KIdW98LdxE5.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10749
+            ],
+            "id": 19404,
+            "original_language": "hi",
+            "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
+            "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+            "popularity": 25.722,
+            "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+            "release_date": "1995-10-19",
+            "title": "Dilwale Dulhania Le Jayenge",
+            "video": false,
+            "vote_average": 8.6,
+            "vote_count": 3947
         },
         {
             "adult": false,
@@ -235,7 +235,7 @@ Vary: Origin
             "original_language": "es",
             "original_title": "Cosas imposibles",
             "overview": "Matilde is a woman who, after the death of her husband - a man who constantly abused her - finds her new best friend in Miguel, her young, insecure, disoriented and even dealer neighbor",
-            "popularity": 11.574,
+            "popularity": 12.962,
             "poster_path": "/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg",
             "release_date": "2021-06-17",
             "title": "Impossible Things",
@@ -255,13 +255,13 @@ Vary: Origin
             "original_language": "ja",
             "original_title": "千と千尋の神隠し",
             "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
-            "popularity": 92.393,
+            "popularity": 103.613,
             "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
             "release_date": "2001-07-20",
             "title": "Spirited Away",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 13548
+            "vote_count": 13566
         },
         {
             "adult": false,
@@ -273,13 +273,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "12 Angry Men",
             "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
-            "popularity": 34.18,
+            "popularity": 36.789,
             "poster_path": "/ppd84D2i9W8jXmsyInGyihiSyqz.jpg",
             "release_date": "1957-04-10",
             "title": "12 Angry Men",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 6790
+            "vote_count": 6800
         },
         {
             "adult": false,
@@ -292,7 +292,7 @@ Vary: Origin
             "original_language": "ja",
             "original_title": "同級生",
             "overview": "Rihito Sajo, an honor student with a perfect score on the entrance exam and Hikaru Kusakabe, in a band and popular among girls, would have never crossed paths. Until one day they started talking at the practice for their school’s upcoming chorus festival. After school, the two meet regularly, as Hikaru helps Rihito to improve his singing skills. While they listen to each other’s voice and harmonize, their hearts start to beat together.",
-            "popularity": 11.099,
+            "popularity": 14.023,
             "poster_path": "/cIfRCA5wEvj9tApca4UDUagQEiM.jpg",
             "release_date": "2016-02-20",
             "title": "Dou kyu sei – Classmates",
@@ -312,13 +312,13 @@ Vary: Origin
             "original_language": "ja",
             "original_title": "君の名は。",
             "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-            "popularity": 121.986,
+            "popularity": 142.897,
             "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
             "release_date": "2016-08-26",
             "title": "Your Name.",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 9222
+            "vote_count": 9233
         },
         {
             "adult": false,
@@ -332,13 +332,13 @@ Vary: Origin
             "original_language": "ko",
             "original_title": "기생충",
             "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
-            "popularity": 88.462,
+            "popularity": 80.859,
             "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
             "release_date": "2019-05-30",
             "title": "Parasite",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 14701
+            "vote_count": 14720
         },
         {
             "adult": false,
@@ -352,13 +352,34 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Green Mile",
             "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
-            "popularity": 83.259,
+            "popularity": 91.826,
             "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
             "release_date": "1999-12-10",
             "title": "The Green Mile",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 14619
+            "vote_count": 14633
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+            "genre_ids": [
+                18,
+                28,
+                80,
+                53
+            ],
+            "id": 155,
+            "original_language": "en",
+            "original_title": "The Dark Knight",
+            "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+            "popularity": 91.559,
+            "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+            "release_date": "2008-07-14",
+            "title": "The Dark Knight",
+            "video": false,
+            "vote_average": 8.5,
+            "vote_count": 28604
         },
         {
             "adult": false,
@@ -370,7 +391,7 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Gabriel's Inferno: Part II",
             "overview": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
-            "popularity": 13.773,
+            "popularity": 13.04,
             "poster_path": "/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
             "release_date": "2020-07-31",
             "title": "Gabriel's Inferno: Part II",
@@ -388,34 +409,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Gabriel's Inferno",
             "overview": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
-            "popularity": 12.562,
+            "popularity": 12.527,
             "poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
             "release_date": "2020-05-29",
             "title": "Gabriel's Inferno",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 2297
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
-            "genre_ids": [
-                18,
-                28,
-                80,
-                53
-            ],
-            "id": 155,
-            "original_language": "en",
-            "original_title": "The Dark Knight",
-            "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-            "popularity": 82.388,
-            "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-            "release_date": "2008-07-14",
-            "title": "The Dark Knight",
-            "video": false,
-            "vote_average": 8.5,
-            "vote_count": 28576
+            "vote_count": 2298
         },
         {
             "adult": false,
@@ -427,7 +427,7 @@ Vary: Origin
             "original_language": "ko",
             "original_title": "번 더 스테이지: 더 무비",
             "overview": "A documentary following the worldwide famous music group BTS, as they tour the world and share their experience along with their beloved band friends and fans.",
-            "popularity": 21.158,
+            "popularity": 21.435,
             "poster_path": "/pJKy1yvnKh8UjcuYeG3Rt35xHFA.jpg",
             "release_date": "2018-11-15",
             "title": "Burn the Stage: The Movie",
@@ -446,13 +446,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Pulp Fiction",
             "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
-            "popularity": 70.403,
+            "popularity": 76.172,
             "poster_path": "/fIE3lAGcZDV1G6XM5KmuWnNsPp1.jpg",
             "release_date": "1994-09-10",
             "title": "Pulp Fiction",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 24054
+            "vote_count": 24079
         },
         {
             "adult": false,
@@ -464,17 +464,17 @@ Vary: Origin
             "original_language": "it",
             "original_title": "Il buono, il brutto, il cattivo",
             "overview": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
-            "popularity": 41.267,
+            "popularity": 47.406,
             "poster_path": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
             "release_date": "1966-12-23",
             "title": "The Good, the Bad and the Ugly",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 6970
+            "vote_count": 6983
         }
     ],
-    "total_pages": 526,
-    "total_results": 10508
+    "total_pages": 527,
+    "total_results": 10524
 }
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -482,13 +482,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyOKResponseForAllFields_ValidPayload" classname="com.tmdb.api.tests.GetTopRatedMovieTests" time="0.285">
-    <failure message="&#10;Expected: &lt;10508&gt;&#10;     but: was &lt;9675&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-
-Expected: <10508>
-     but: was <9675>
-	at com.tmdb.api.tests.GetTopRatedMovieTests.verifyOKResponseForAllFields_ValidPayload(GetTopRatedMovieTests.java:25)
-]]></failure>
+  <testcase name="TC02_verifyOKResponse_AllFields_ValidPayload" classname="com.tmdb.tests.GetTopRatedMovieTests" time="0.729">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1&api_key=8f27fe80f784cc088d44f642e123af30&region=US
 Proxy:			<none>
@@ -508,17 +502,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json;charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Wed, 16 Nov 2022 08:24:52 GMT
+Date: Mon, 21 Nov 2022 11:31:23 GMT
 Server: openresty
 Cache-Control: public, max-age=21600
 Content-Encoding: gzip
 Vary: Accept-Encoding,Accept-Encoding
 X-Cache: Hit from cloudfront
-Via: 1.1 388d4b5e5ad4bb3a9df4038a58ae3db0.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: DEL54-C4
+Via: 1.1 da8be713d6de466d7acdf50c14f9d566.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
 Alt-Svc: h3=":443"; ma=86400
-X-Amz-Cf-Id: OlGQiTn9Bap83nmBYAgd3vTYqnN1HvCmB-eQcPxKWqshHwzComiZlQ==
-Age: 17585
+X-Amz-Cf-Id: kUgp2DCMy_Jc0RcMlejLTH7RnqG6ve3NWPDw2Dd8UY9a_paNmmiNsQ==
+Age: 7187
 Vary: Origin
 
 {
@@ -535,13 +529,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Godfather",
             "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
-            "popularity": 106.976,
+            "popularity": 93.231,
             "poster_path": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
             "release_date": "1972-03-14",
             "title": "The Godfather",
             "video": false,
             "vote_average": 8.7,
-            "vote_count": 16906
+            "vote_count": 16927
         },
         {
             "adult": false,
@@ -554,17 +548,17 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Shawshank Redemption",
             "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
-            "popularity": 77.143,
+            "popularity": 85.163,
             "poster_path": "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
             "release_date": "1994-09-23",
             "title": "The Shawshank Redemption",
             "video": false,
             "vote_average": 8.7,
-            "vote_count": 22653
+            "vote_count": 22681
         },
         {
             "adult": false,
-            "backdrop_path": "/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
+            "backdrop_path": "/poec6RqOKY9iSiIUmfyfPfiLtvB.jpg",
             "genre_ids": [
                 18,
                 80
@@ -573,13 +567,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Godfather Part II",
             "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
-            "popularity": 56.576,
+            "popularity": 63.011,
             "poster_path": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
             "release_date": "1974-12-20",
             "title": "The Godfather Part II",
             "video": false,
             "vote_average": 8.6,
-            "vote_count": 10250
+            "vote_count": 10264
         },
         {
             "adult": false,
@@ -593,33 +587,13 @@ Vary: Origin
             "original_language": "zh",
             "original_title": "罗小黑战记",
             "overview": "In the bustling human world, spirits live peacefully with mankind. Luo Xiaohei, a young cat spirit, becomes a nomad after his forest home is destroyed. His natural talent soon attracts spirits and humans alike, but all of them have their own motivations.",
-            "popularity": 18.183,
+            "popularity": 11.586,
             "poster_path": "/aLv87NgRJUPkQ6sVLP72IisDdt4.jpg",
             "release_date": "2021-04-20",
             "title": "The Legend of Hei",
             "video": false,
             "vote_average": 8.6,
-            "vote_count": 208
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/vI3aUGTuRRdM7J78KIdW98LdxE5.jpg",
-            "genre_ids": [
-                35,
-                18,
-                10749
-            ],
-            "id": 19404,
-            "original_language": "hi",
-            "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
-            "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
-            "popularity": 27.416,
-            "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
-            "release_date": "1995-10-20",
-            "title": "Dilwale Dulhania Le Jayenge",
-            "video": false,
-            "vote_average": 8.6,
-            "vote_count": 3943
+            "vote_count": 209
         },
         {
             "adult": false,
@@ -633,13 +607,33 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Schindler's List",
             "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
-            "popularity": 53.519,
+            "popularity": 54.448,
             "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
             "release_date": "1993-12-15",
             "title": "Schindler's List",
             "video": false,
             "vote_average": 8.6,
-            "vote_count": 13444
+            "vote_count": 13457
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vI3aUGTuRRdM7J78KIdW98LdxE5.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10749
+            ],
+            "id": 19404,
+            "original_language": "hi",
+            "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
+            "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+            "popularity": 25.722,
+            "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+            "release_date": "1995-10-20",
+            "title": "Dilwale Dulhania Le Jayenge",
+            "video": false,
+            "vote_average": 8.6,
+            "vote_count": 3947
         },
         {
             "adult": false,
@@ -653,13 +647,13 @@ Vary: Origin
             "original_language": "ja",
             "original_title": "千と千尋の神隠し",
             "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
-            "popularity": 92.393,
+            "popularity": 103.613,
             "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
             "release_date": "2002-09-20",
             "title": "Spirited Away",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 13548
+            "vote_count": 13566
         },
         {
             "adult": false,
@@ -671,13 +665,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "12 Angry Men",
             "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
-            "popularity": 34.18,
+            "popularity": 36.789,
             "poster_path": "/ppd84D2i9W8jXmsyInGyihiSyqz.jpg",
             "release_date": "1957-04-10",
             "title": "12 Angry Men",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 6790
+            "vote_count": 6800
         },
         {
             "adult": false,
@@ -690,7 +684,7 @@ Vary: Origin
             "original_language": "ja",
             "original_title": "同級生",
             "overview": "Rihito Sajo, an honor student with a perfect score on the entrance exam and Hikaru Kusakabe, in a band and popular among girls, would have never crossed paths. Until one day they started talking at the practice for their school’s upcoming chorus festival. After school, the two meet regularly, as Hikaru helps Rihito to improve his singing skills. While they listen to each other’s voice and harmonize, their hearts start to beat together.",
-            "popularity": 11.099,
+            "popularity": 14.023,
             "poster_path": "/cIfRCA5wEvj9tApca4UDUagQEiM.jpg",
             "release_date": "2016-05-06",
             "title": "Dou kyu sei – Classmates",
@@ -710,13 +704,13 @@ Vary: Origin
             "original_language": "ja",
             "original_title": "君の名は。",
             "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-            "popularity": 121.986,
+            "popularity": 142.897,
             "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
             "release_date": "2017-04-07",
             "title": "Your Name.",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 9222
+            "vote_count": 9233
         },
         {
             "adult": false,
@@ -730,13 +724,13 @@ Vary: Origin
             "original_language": "ko",
             "original_title": "기생충",
             "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
-            "popularity": 88.462,
+            "popularity": 80.859,
             "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
             "release_date": "2019-10-11",
             "title": "Parasite",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 14701
+            "vote_count": 14720
         },
         {
             "adult": false,
@@ -750,13 +744,34 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Green Mile",
             "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
-            "popularity": 83.259,
+            "popularity": 91.826,
             "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
             "release_date": "1999-12-10",
             "title": "The Green Mile",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 14619
+            "vote_count": 14633
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+            "genre_ids": [
+                18,
+                28,
+                80,
+                53
+            ],
+            "id": 155,
+            "original_language": "en",
+            "original_title": "The Dark Knight",
+            "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+            "popularity": 91.559,
+            "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+            "release_date": "2008-07-18",
+            "title": "The Dark Knight",
+            "video": false,
+            "vote_average": 8.5,
+            "vote_count": 28604
         },
         {
             "adult": false,
@@ -768,7 +783,7 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Gabriel's Inferno: Part II",
             "overview": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
-            "popularity": 13.773,
+            "popularity": 13.04,
             "poster_path": "/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
             "release_date": "2020-07-31",
             "title": "Gabriel's Inferno: Part II",
@@ -786,34 +801,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Gabriel's Inferno",
             "overview": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
-            "popularity": 12.562,
+            "popularity": 12.527,
             "poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
             "release_date": "2020-05-29",
             "title": "Gabriel's Inferno",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 2297
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
-            "genre_ids": [
-                18,
-                28,
-                80,
-                53
-            ],
-            "id": 155,
-            "original_language": "en",
-            "original_title": "The Dark Knight",
-            "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-            "popularity": 82.388,
-            "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-            "release_date": "2008-07-18",
-            "title": "The Dark Knight",
-            "video": false,
-            "vote_average": 8.5,
-            "vote_count": 28576
+            "vote_count": 2298
         },
         {
             "adult": false,
@@ -826,13 +820,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Pulp Fiction",
             "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
-            "popularity": 70.403,
+            "popularity": 76.172,
             "poster_path": "/fIE3lAGcZDV1G6XM5KmuWnNsPp1.jpg",
             "release_date": "1994-10-14",
             "title": "Pulp Fiction",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 24054
+            "vote_count": 24079
         },
         {
             "adult": false,
@@ -844,13 +838,13 @@ Vary: Origin
             "original_language": "it",
             "original_title": "Il buono, il brutto, il cattivo",
             "overview": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
-            "popularity": 41.267,
+            "popularity": 47.406,
             "poster_path": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
             "release_date": "1967-12-29",
             "title": "The Good, the Bad and the Ugly",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 6970
+            "vote_count": 6983
         },
         {
             "adult": false,
@@ -864,13 +858,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Forrest Gump",
             "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
-            "popularity": 64.864,
+            "popularity": 67.942,
             "poster_path": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
             "release_date": "2014-09-05",
             "title": "Forrest Gump",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 23601
+            "vote_count": 23619
         },
         {
             "adult": false,
@@ -884,40 +878,40 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Lord of the Rings: The Return of the King",
             "overview": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
-            "popularity": 109.098,
+            "popularity": 128.538,
             "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
             "release_date": "2003-12-17",
             "title": "The Lord of the Rings: The Return of the King",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 20529
+            "vote_count": 20553
         },
         {
             "adult": false,
-            "backdrop_path": "/sw7mordbZxgITU877yTpZCud90M.jpg",
+            "backdrop_path": "/fQq1FWp1rC89xDrRMuyFJdFUdMd.jpg",
             "genre_ids": [
-                18,
-                80
+                10749,
+                35
             ],
-            "id": 769,
+            "id": 761053,
             "original_language": "en",
-            "original_title": "GoodFellas",
-            "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
-            "popularity": 49.862,
-            "poster_path": "/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
-            "release_date": "1990-09-19",
-            "title": "GoodFellas",
+            "original_title": "Gabriel's Inferno: Part III",
+            "overview": "The final part of the film adaption of the erotic romance novel Gabriel's Inferno written by an anonymous Canadian author under the pen name Sylvain Reynard. Watch Here : https://classic-blog.udn.com/mobile/aaef2970/177226874",
+            "popularity": 43.629,
+            "poster_path": "/fYtHxTxlhzD4QWfEbrC1rypysSD.jpg",
+            "release_date": "2020-11-19",
+            "title": "Gabriel's Inferno: Part III",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 10666
+            "vote_count": 993
         }
     ],
-    "total_pages": 484,
-    "total_results": 9675
+    "total_pages": 485,
+    "total_results": 9688
 }
 ]]></system-out>
   </testcase>
-  <testcase name="verifyErrorResponseForWithoutAPIKey_InValidPayload" classname="com.tmdb.api.tests.GetTopRatedMovieTests" time="0.317">
+  <testcase name="TC03_verifyErrorResponse_WithoutAPIKey_InValidPayload" classname="com.tmdb.tests.GetTopRatedMovieTests" time="0.199">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1&region=US
 Proxy:			<none>
@@ -936,14 +930,14 @@ HTTP/1.1 401 Unauthorized
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Wed, 16 Nov 2022 13:17:58 GMT
+Date: Mon, 21 Nov 2022 13:31:11 GMT
 Server: openresty
 Cache-Control: public, max-age=300
 X-Cache: Error from cloudfront
-Via: 1.1 5dd0dcc9e043b55ac64f63fa9f8c3a40.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: DEL54-C4
+Via: 1.1 f3f59d5c6e4587ca043f865fcb3969f2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
 Alt-Svc: h3=":443"; ma=86400
-X-Amz-Cf-Id: qKv1SSK2XCnzdq0tSwr9uT39YKHeyOridQ-PuL8fJxsWn8myIH8vjg==
+X-Amz-Cf-Id: L-jW2azwEur5ZWI7U2ug-j8OkTD3zk1HIdyI8kN4z7lgRRKnHjGnfA==
 Vary: Origin
 
 {
@@ -953,15 +947,15 @@ Vary: Origin
 }
 ]]></system-out>
   </testcase>
-  <testcase name="verifyErrorResponseForInvalidAPIKey_InValidPayload" classname="com.tmdb.api.tests.GetTopRatedMovieTests" time="0.331">
+  <testcase name="TC04_verifyErrorResponse_InvalidAPIKey_InValidPayload" classname="com.tmdb.tests.GetTopRatedMovieTests" time="0.452">
     <system-out><![CDATA[Request method:	GET
-Request URI:	https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1&region=US&api_key=8f27fe80f784cc088d44f642e123af30xxx
+Request URI:	https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1&region=US&api_key=8f27fe80f784cc088d44f642e123af30yz
 Proxy:			<none>
 Request params:	<none>
 Query params:	language=en-US
 				page=1
 				region=US
-				api_key=8f27fe80f784cc088d44f642e123af30xxx
+				api_key=8f27fe80f784cc088d44f642e123af30yz
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -973,14 +967,14 @@ HTTP/1.1 401 Unauthorized
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Wed, 16 Nov 2022 13:17:58 GMT
+Date: Mon, 21 Nov 2022 13:31:11 GMT
 Server: openresty
 Cache-Control: public, max-age=300
 X-Cache: Error from cloudfront
-Via: 1.1 f8343e2ba2c57e1ae6577ec390717036.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: DEL54-C4
+Via: 1.1 d577fc82e350f4e3fb89ac31e2d02b44.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
 Alt-Svc: h3=":443"; ma=86400
-X-Amz-Cf-Id: BKtAn_L9oMLFyYfIyQeRSASmuSfF--nGIGkveSz7rhgZKHEqlIuaJw==
+X-Amz-Cf-Id: nvvqAgzv-49XmxzDPOF_O8wN5RhPfdZXoY5i8PmHkn9Ta8hW_Qmj7g==
 Vary: Origin
 
 {
@@ -990,7 +984,7 @@ Vary: Origin
 }
 ]]></system-out>
   </testcase>
-  <testcase name="verifyErrorResponseForInvalidResource_InValidPayload" classname="com.tmdb.api.tests.GetTopRatedMovieTests" time="0.304">
+  <testcase name="TC05_verifyErrorResponse_InvalidResource_InValidPayload" classname="com.tmdb.tests.GetTopRatedMovieTests" time="0.41">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://api.themoviedb.org/3/movie/top_ratedzyx?language=en-US&page=1&region=US&api_key=8f27fe80f784cc088d44f642e123af30
 Proxy:			<none>
@@ -1010,15 +1004,15 @@ HTTP/1.1 404 Not Found
 Content-Type: application/json;charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Wed, 16 Nov 2022 13:17:59 GMT
+Date: Mon, 21 Nov 2022 13:31:12 GMT
 Server: openresty
 Content-Encoding: gzip
 Vary: Accept-Encoding,Accept-Encoding
 X-Cache: Error from cloudfront
-Via: 1.1 bee9baf4a3ba6e3655c719c1ad85ce66.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: DEL54-C4
+Via: 1.1 d02e6230e17bdc1d6594ead12d216e02.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
 Alt-Svc: h3=":443"; ma=86400
-X-Amz-Cf-Id: 6Y_tLEekamkfUH720xDGV441KSmw5_xzzzkjHTAdAMzf_6uhVwMKYA==
+X-Amz-Cf-Id: QriQeFKBGY51monXR8zMrY2R35rz0xvtwUUGRaUewLoxhBk_-XQ0Xg==
 Vary: Origin
 
 {
@@ -1028,7 +1022,7 @@ Vary: Origin
 }
 ]]></system-out>
   </testcase>
-  <testcase name="verifyErrorResponseForInvalidPageNumber_InValidPayload" classname="com.tmdb.api.tests.GetTopRatedMovieTests" time="0.318">
+  <testcase name="TC06_verifyErrorResponse_InvalidPageNumber_InValidPayload" classname="com.tmdb.tests.GetTopRatedMovieTests" time="0.519">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=-1&region=US&api_key=8f27fe80f784cc088d44f642e123af30
 Proxy:			<none>
@@ -1048,15 +1042,15 @@ HTTP/1.1 422 Unknown
 Content-Type: application/json;charset=utf-8
 Content-Length: 58
 Connection: keep-alive
-Date: Wed, 16 Nov 2022 13:17:59 GMT
+Date: Mon, 21 Nov 2022 13:31:12 GMT
 Server: openresty
 ETag: 58be404fbc748dec7b6702cd2ef234a4
 Cache-Control: public, max-age=60
 X-Cache: Error from cloudfront
-Via: 1.1 40d308f893d58e79b5af15dcb5e4e2b0.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: DEL54-C4
+Via: 1.1 f3f59d5c6e4587ca043f865fcb3969f2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
 Alt-Svc: h3=":443"; ma=86400
-X-Amz-Cf-Id: q0AMgLGaTt8pDNRPDnKXcyzIpObmiyebIGv6qhxXj7_tLr1ZE4H2cA==
+X-Amz-Cf-Id: EknSDEsUJxK_0oApEK-db2w0uGX5vecZkMQTSqXEUeKi1Y3aoDiVyQ==
 Vary: Origin
 
 {
@@ -1067,12 +1061,12 @@ Vary: Origin
 }
 ]]></system-out>
   </testcase>
-  <testcase name="verifyErrorResponseForInvalidLanguage_InValidPayload" classname="com.tmdb.api.tests.GetTopRatedMovieTests" time="0.307">
+  <testcase name="TC07_verifyErrorResponse_InvalidLanguage_InValidPayload" classname="com.tmdb.tests.GetTopRatedMovieTests" time="1.268">
     <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.
 
-	at com.tmdb.api.tests.GetTopRatedMovieTests.verifyErrorResponseForInvalidLanguage_InValidPayload(GetTopRatedMovieTests.java:55)
+	at com.tmdb.tests.GetTopRatedMovieTests.TC07_verifyErrorResponse_InvalidLanguage_InValidPayload(GetTopRatedMovieTests.java:69)
 ]]></failure>
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://api.themoviedb.org/3/movie/top_rated?language=yz&region=US&page=1&api_key=8f27fe80f784cc088d44f642e123af30
@@ -1093,17 +1087,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json;charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Wed, 16 Nov 2022 08:24:49 GMT
+Date: Mon, 21 Nov 2022 11:31:25 GMT
 Server: openresty
 Cache-Control: public, max-age=21600
 Content-Encoding: gzip
 Vary: Accept-Encoding,Accept-Encoding
 X-Cache: Hit from cloudfront
-Via: 1.1 5be03d0f2c9efd18df3a07ad2305d5c4.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: DEL54-C4
+Via: 1.1 f51492ae030410edae1a64be27c4028e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
 Alt-Svc: h3=":443"; ma=86400
-X-Amz-Cf-Id: 9oamQxgFFth3qnLldi-FZD5IL_j2AVyh77j-eAH_DPem7xVacCrWvA==
-Age: 17589
+X-Amz-Cf-Id: WeFf7HbBkPQZZhlDNmu_Uf0Il3eVluKtZo8Wl7nvkJYjcPPbdHpgNA==
+Age: 7188
 Vary: Origin
 
 {
@@ -1120,13 +1114,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Godfather",
             "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
-            "popularity": 106.976,
+            "popularity": 93.231,
             "poster_path": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
             "release_date": "1972-03-14",
             "title": "The Godfather",
             "video": false,
             "vote_average": 8.7,
-            "vote_count": 16906
+            "vote_count": 16927
         },
         {
             "adult": false,
@@ -1139,17 +1133,17 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Shawshank Redemption",
             "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
-            "popularity": 77.143,
+            "popularity": 85.163,
             "poster_path": "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
             "release_date": "1994-09-23",
             "title": "The Shawshank Redemption",
             "video": false,
             "vote_average": 8.7,
-            "vote_count": 22653
+            "vote_count": 22681
         },
         {
             "adult": false,
-            "backdrop_path": "/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
+            "backdrop_path": "/poec6RqOKY9iSiIUmfyfPfiLtvB.jpg",
             "genre_ids": [
                 18,
                 80
@@ -1158,13 +1152,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Godfather Part II",
             "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
-            "popularity": 56.576,
+            "popularity": 63.011,
             "poster_path": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
             "release_date": "1974-12-20",
             "title": "The Godfather Part II",
             "video": false,
             "vote_average": 8.6,
-            "vote_count": 10250
+            "vote_count": 10264
         },
         {
             "adult": false,
@@ -1178,33 +1172,13 @@ Vary: Origin
             "original_language": "zh",
             "original_title": "罗小黑战记",
             "overview": "In the bustling human world, spirits live peacefully with mankind. Luo Xiaohei, a young cat spirit, becomes a nomad after his forest home is destroyed. His natural talent soon attracts spirits and humans alike, but all of them have their own motivations.",
-            "popularity": 18.183,
+            "popularity": 11.586,
             "poster_path": "/aLv87NgRJUPkQ6sVLP72IisDdt4.jpg",
             "release_date": "2021-04-20",
             "title": "The Legend of Hei",
             "video": false,
             "vote_average": 8.6,
-            "vote_count": 208
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/vI3aUGTuRRdM7J78KIdW98LdxE5.jpg",
-            "genre_ids": [
-                35,
-                18,
-                10749
-            ],
-            "id": 19404,
-            "original_language": "hi",
-            "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
-            "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
-            "popularity": 27.416,
-            "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
-            "release_date": "1995-10-20",
-            "title": "Dilwale Dulhania Le Jayenge",
-            "video": false,
-            "vote_average": 8.6,
-            "vote_count": 3943
+            "vote_count": 209
         },
         {
             "adult": false,
@@ -1218,13 +1192,33 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Schindler's List",
             "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
-            "popularity": 53.519,
+            "popularity": 54.448,
             "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
             "release_date": "1993-12-15",
             "title": "Schindler's List",
             "video": false,
             "vote_average": 8.6,
-            "vote_count": 13444
+            "vote_count": 13457
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vI3aUGTuRRdM7J78KIdW98LdxE5.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10749
+            ],
+            "id": 19404,
+            "original_language": "hi",
+            "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
+            "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+            "popularity": 25.722,
+            "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+            "release_date": "1995-10-20",
+            "title": "Dilwale Dulhania Le Jayenge",
+            "video": false,
+            "vote_average": 8.6,
+            "vote_count": 3947
         },
         {
             "adult": false,
@@ -1238,13 +1232,13 @@ Vary: Origin
             "original_language": "ja",
             "original_title": "千と千尋の神隠し",
             "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
-            "popularity": 92.393,
+            "popularity": 103.613,
             "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
             "release_date": "2002-09-20",
             "title": "Spirited Away",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 13548
+            "vote_count": 13566
         },
         {
             "adult": false,
@@ -1256,13 +1250,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "12 Angry Men",
             "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
-            "popularity": 34.18,
+            "popularity": 36.789,
             "poster_path": "/ppd84D2i9W8jXmsyInGyihiSyqz.jpg",
             "release_date": "1957-04-10",
             "title": "12 Angry Men",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 6790
+            "vote_count": 6800
         },
         {
             "adult": false,
@@ -1275,7 +1269,7 @@ Vary: Origin
             "original_language": "ja",
             "original_title": "同級生",
             "overview": "Rihito Sajo, an honor student with a perfect score on the entrance exam and Hikaru Kusakabe, in a band and popular among girls, would have never crossed paths. Until one day they started talking at the practice for their school’s upcoming chorus festival. After school, the two meet regularly, as Hikaru helps Rihito to improve his singing skills. While they listen to each other’s voice and harmonize, their hearts start to beat together.",
-            "popularity": 11.099,
+            "popularity": 14.023,
             "poster_path": "/cIfRCA5wEvj9tApca4UDUagQEiM.jpg",
             "release_date": "2016-05-06",
             "title": "Dou kyu sei – Classmates",
@@ -1295,13 +1289,13 @@ Vary: Origin
             "original_language": "ja",
             "original_title": "君の名は。",
             "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-            "popularity": 121.986,
+            "popularity": 142.897,
             "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
             "release_date": "2017-04-07",
             "title": "Your Name.",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 9222
+            "vote_count": 9233
         },
         {
             "adult": false,
@@ -1315,13 +1309,13 @@ Vary: Origin
             "original_language": "ko",
             "original_title": "기생충",
             "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
-            "popularity": 88.462,
+            "popularity": 80.859,
             "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
             "release_date": "2019-10-11",
             "title": "Parasite",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 14701
+            "vote_count": 14720
         },
         {
             "adult": false,
@@ -1335,13 +1329,34 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Green Mile",
             "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
-            "popularity": 83.259,
+            "popularity": 91.826,
             "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
             "release_date": "1999-12-10",
             "title": "The Green Mile",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 14619
+            "vote_count": 14633
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+            "genre_ids": [
+                18,
+                28,
+                80,
+                53
+            ],
+            "id": 155,
+            "original_language": "en",
+            "original_title": "The Dark Knight",
+            "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+            "popularity": 91.559,
+            "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+            "release_date": "2008-07-18",
+            "title": "The Dark Knight",
+            "video": false,
+            "vote_average": 8.5,
+            "vote_count": 28604
         },
         {
             "adult": false,
@@ -1353,7 +1368,7 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Gabriel's Inferno: Part II",
             "overview": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
-            "popularity": 13.773,
+            "popularity": 13.04,
             "poster_path": "/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
             "release_date": "2020-07-31",
             "title": "Gabriel's Inferno: Part II",
@@ -1371,34 +1386,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Gabriel's Inferno",
             "overview": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
-            "popularity": 12.562,
+            "popularity": 12.527,
             "poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
             "release_date": "2020-05-29",
             "title": "Gabriel's Inferno",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 2297
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
-            "genre_ids": [
-                18,
-                28,
-                80,
-                53
-            ],
-            "id": 155,
-            "original_language": "en",
-            "original_title": "The Dark Knight",
-            "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-            "popularity": 82.388,
-            "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-            "release_date": "2008-07-18",
-            "title": "The Dark Knight",
-            "video": false,
-            "vote_average": 8.5,
-            "vote_count": 28576
+            "vote_count": 2298
         },
         {
             "adult": false,
@@ -1411,13 +1405,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Pulp Fiction",
             "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
-            "popularity": 70.403,
+            "popularity": 76.172,
             "poster_path": "/fIE3lAGcZDV1G6XM5KmuWnNsPp1.jpg",
             "release_date": "1994-10-14",
             "title": "Pulp Fiction",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 24054
+            "vote_count": 24079
         },
         {
             "adult": false,
@@ -1429,13 +1423,13 @@ Vary: Origin
             "original_language": "it",
             "original_title": "Il buono, il brutto, il cattivo",
             "overview": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
-            "popularity": 41.267,
+            "popularity": 47.406,
             "poster_path": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
             "release_date": "1967-12-29",
             "title": "The Good, the Bad and the Ugly",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 6970
+            "vote_count": 6983
         },
         {
             "adult": false,
@@ -1449,13 +1443,13 @@ Vary: Origin
             "original_language": "en",
             "original_title": "Forrest Gump",
             "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
-            "popularity": 64.864,
+            "popularity": 67.942,
             "poster_path": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
             "release_date": "2014-09-05",
             "title": "Forrest Gump",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 23601
+            "vote_count": 23619
         },
         {
             "adult": false,
@@ -1469,45 +1463,45 @@ Vary: Origin
             "original_language": "en",
             "original_title": "The Lord of the Rings: The Return of the King",
             "overview": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
-            "popularity": 109.098,
+            "popularity": 128.538,
             "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
             "release_date": "2003-12-17",
             "title": "The Lord of the Rings: The Return of the King",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 20529
+            "vote_count": 20553
         },
         {
             "adult": false,
-            "backdrop_path": "/sw7mordbZxgITU877yTpZCud90M.jpg",
+            "backdrop_path": "/fQq1FWp1rC89xDrRMuyFJdFUdMd.jpg",
             "genre_ids": [
-                18,
-                80
+                10749,
+                35
             ],
-            "id": 769,
+            "id": 761053,
             "original_language": "en",
-            "original_title": "GoodFellas",
-            "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
-            "popularity": 49.862,
-            "poster_path": "/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
-            "release_date": "1990-09-19",
-            "title": "GoodFellas",
+            "original_title": "Gabriel's Inferno: Part III",
+            "overview": "The final part of the film adaption of the erotic romance novel Gabriel's Inferno written by an anonymous Canadian author under the pen name Sylvain Reynard. Watch Here : https://classic-blog.udn.com/mobile/aaef2970/177226874",
+            "popularity": 43.629,
+            "poster_path": "/fYtHxTxlhzD4QWfEbrC1rypysSD.jpg",
+            "release_date": "2020-11-19",
+            "title": "Gabriel's Inferno: Part III",
             "video": false,
             "vote_average": 8.5,
-            "vote_count": 10666
+            "vote_count": 993
         }
     ],
-    "total_pages": 484,
-    "total_results": 9675
+    "total_pages": 485,
+    "total_results": 9688
 }
 ]]></system-out>
   </testcase>
-  <testcase name="verifyErrorResponseForInvalidRegion_InValidPayload" classname="com.tmdb.api.tests.GetTopRatedMovieTests" time="0.041">
+  <testcase name="TC08_verifyErrorResponse_InvalidRegion_InValidPayload" classname="com.tmdb.tests.GetTopRatedMovieTests" time="0.073">
     <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.
 
-	at com.tmdb.api.tests.GetTopRatedMovieTests.verifyErrorResponseForInvalidRegion_InValidPayload(GetTopRatedMovieTests.java:60)
+	at com.tmdb.tests.GetTopRatedMovieTests.TC08_verifyErrorResponse_InvalidRegion_InValidPayload(GetTopRatedMovieTests.java:75)
 ]]></failure>
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://api.themoviedb.org/3/movie/top_rated?language=en-US&region=yz&page=1&api_key=8f27fe80f784cc088d44f642e123af30
@@ -1528,17 +1522,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json;charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Wed, 16 Nov 2022 08:24:51 GMT
+Date: Mon, 21 Nov 2022 11:31:25 GMT
 Server: openresty
 Cache-Control: public, max-age=21600
 Content-Encoding: gzip
 Vary: Accept-Encoding,Accept-Encoding
 X-Cache: Hit from cloudfront
-Via: 1.1 5dd0dcc9e043b55ac64f63fa9f8c3a40.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: DEL54-C4
+Via: 1.1 47bef4917f5436b97fdfd2d01530aff4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
 Alt-Svc: h3=":443"; ma=86400
-X-Amz-Cf-Id: 0lsTOFKBzu_TqQYtdESyctRfG8FnXM7-tfsJaKCt3WpB_oZwHI9w2Q==
-Age: 17588
+X-Amz-Cf-Id: WY9wl4UP3VOn9TaF5E-KUQZOR7iDXRKe-AdDWYWGHlia7RPhhaH6VQ==
+Age: 7188
 Vary: Origin
 
 {
@@ -1551,13 +1545,47 @@ Vary: Origin
 }
 ]]></system-out>
   </testcase>
-  <testcase name="verifyOKResponseForValidPayload" classname="com.tmdb.api.tests.PostRateMovieTests" time="0.877">
-    <failure message="&#10;Expected: &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+  <testcase name="TC01_verifyOKResponse_ForAllFields_ValidPayload" classname="com.tmdb.tests.PostRateMovieTests" time="1.167">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.themoviedb.org/3/movie/851644/rating?session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b&api_key=8f27fe80f784cc088d44f642e123af30
+Proxy:			<none>
+Request params:	<none>
+Query params:	session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b
+				api_key=8f27fe80f784cc088d44f642e123af30
+Form params:	<none>
+Path params:	movie_id=851644
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": 7.0
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=utf-8
+Content-Length: 94
+Connection: keep-alive
+Date: Mon, 21 Nov 2022 13:31:15 GMT
+Server: openresty
+Cache-Control: public, max-age=0
+ETag: W/"04302547257ccb7e68844cdd59055002"
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 118f8e0e3095ec01cc77f07b1d354dac.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: -Ex8i_AgTdVnxMiDbwUc1k-Huc3Z0z0hOk698E8XZy_JOgWy4hzEhw==
+Vary: Origin
 
-Expected: <true>
-     but: was <false>
-	at com.tmdb.api.tests.PostRateMovieTests.verifyOKResponseForValidPayload(PostRateMovieTests.java:17)
-]]></failure>
+{
+    "success": true,
+    "status_code": 12,
+    "status_message": "The item/record was updated successfully."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC02_verifyErrorResponse_ForWithoutAPIKey_InValidPayload" classname="com.tmdb.tests.PostRateMovieTests" time="0.525">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://api.themoviedb.org/3/movie/851644/rating?session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b
 Proxy:			<none>
@@ -1571,26 +1599,339 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "value": 7
+    "value": 7.0
 }
 HTTP/1.1 401 Unauthorized
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Wed, 16 Nov 2022 13:18:00 GMT
+Date: Mon, 21 Nov 2022 13:31:15 GMT
 Server: openresty
 Cache-Control: public, max-age=300
 X-Cache: Error from cloudfront
-Via: 1.1 637fcf134a6acd248c904995685d8a64.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: DEL54-C4
+Via: 1.1 47bef4917f5436b97fdfd2d01530aff4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
 Alt-Svc: h3=":443"; ma=86400
-X-Amz-Cf-Id: Xevs8M2C9AT-UhUo4QeEJ_21MiT6PokuLaH5NzgWyn2EfPQLYAALxQ==
+X-Amz-Cf-Id: iONXnCYek4_7bKKAoEEvTRekOcysXOv1gX7kE8QqanOFsKf1kP1Rqg==
 Vary: Origin
 
 {
     "status_code": 7,
     "status_message": "Invalid API key: You must be granted a valid key.",
     "success": false
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC03_verifyErrorResponse_ForWithoutSessionID_InValidPayload" classname="com.tmdb.tests.PostRateMovieTests" time="0.532">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.themoviedb.org/3/movie/851644/rating?api_key=8f27fe80f784cc088d44f642e123af30
+Proxy:			<none>
+Request params:	<none>
+Query params:	api_key=8f27fe80f784cc088d44f642e123af30
+Form params:	<none>
+Path params:	movie_id=851644
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": 7.0
+}
+HTTP/1.1 401 Unauthorized
+Content-Type: application/json;charset=utf-8
+Content-Length: 126
+Connection: keep-alive
+Date: Mon, 21 Nov 2022 13:31:16 GMT
+Server: openresty
+Cache-Control: public, max-age=0
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 f3f59d5c6e4587ca043f865fcb3969f2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: -rLajehh__pgHhXpa3nVOsVQLaOaibYzWWq2f-y6SYiWZcKZPpkQAA==
+Vary: Origin
+
+{
+    "success": false,
+    "status_code": 3,
+    "status_message": "Authentication failed: You do not have permissions to access the service."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC04_verifyErrorResponse_ForInvalidMovieID_InValidPayload" classname="com.tmdb.tests.PostRateMovieTests" time="0.323">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.themoviedb.org/3/movie/1/rating?api_key=8f27fe80f784cc088d44f642e123af30&session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b
+Proxy:			<none>
+Request params:	<none>
+Query params:	api_key=8f27fe80f784cc088d44f642e123af30
+				session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b
+Form params:	<none>
+Path params:	movie_id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": 7.0
+}
+HTTP/1.1 404 Not Found
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Mon, 21 Nov 2022 13:31:16 GMT
+Server: openresty
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Cache-Control: public, max-age=0
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Cache: Error from cloudfront
+Via: 1.1 f3f59d5c6e4587ca043f865fcb3969f2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: va9lJebb4RS7oxkcN5vvslBpIAAXsDS_N1I1NzlvmKE-oLoNWOWrKw==
+Vary: Origin
+
+{
+    "success": false,
+    "status_code": 34,
+    "status_message": "The resource you requested could not be found."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC05_verifyErrorResponse_ForInvalidSessionID_InValidPayload" classname="com.tmdb.tests.PostRateMovieTests" time="0.284">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.themoviedb.org/3/movie/851644/rating?session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b12&api_key=8f27fe80f784cc088d44f642e123af30
+Proxy:			<none>
+Request params:	<none>
+Query params:	session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b12
+				api_key=8f27fe80f784cc088d44f642e123af30
+Form params:	<none>
+Path params:	movie_id=851644
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": 7.0
+}
+HTTP/1.1 401 Unauthorized
+Content-Type: application/json;charset=utf-8
+Content-Length: 126
+Connection: keep-alive
+Date: Mon, 21 Nov 2022 13:31:17 GMT
+Server: openresty
+Cache-Control: public, max-age=0
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 e7bb3cc1809b98dae20dda9a50be1114.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: 0LwFkqlSmVznlLtE42D3XS3k8FlT2w7hRPYBfn-PNEmjPTTFNFT_SA==
+Vary: Origin
+
+{
+    "success": false,
+    "status_code": 3,
+    "status_message": "Authentication failed: You do not have permissions to access the service."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC06_verifyErrorResponse_ForInvalidApiKey_InValidPayload" classname="com.tmdb.tests.PostRateMovieTests" time="0.268">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.themoviedb.org/3/movie/851644/rating?session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b&api_key
+Proxy:			<none>
+Request params:	<none>
+Query params:	session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b
+				api_key
+Form params:	<none>
+Path params:	movie_id=851644
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": 7.0
+}
+HTTP/1.1 401 Unauthorized
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Mon, 21 Nov 2022 13:31:17 GMT
+Server: openresty
+Cache-Control: public, max-age=300
+X-Cache: Error from cloudfront
+Via: 1.1 0e5f9c3c203f87e832d847eac0b474d2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: IudYhpATa2I3y19KhsjZXlNZrr7qsNj9obR71dBSicYAfgLQlfBH-g==
+Vary: Origin
+
+{
+    "status_code": 7,
+    "status_message": "Invalid API key: You must be granted a valid key.",
+    "success": false
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC07_verifyErrorResponse_ForValue_GreaterThan10_ValidPayload" classname="com.tmdb.tests.PostRateMovieTests" time="0.271">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.themoviedb.org/3/movie/851644/rating?session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b&api_key=8f27fe80f784cc088d44f642e123af30
+Proxy:			<none>
+Request params:	<none>
+Query params:	session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b
+				api_key=8f27fe80f784cc088d44f642e123af30
+Form params:	<none>
+Path params:	movie_id=851644
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": 11.0
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json;charset=utf-8
+Content-Length: 112
+Connection: keep-alive
+Date: Mon, 21 Nov 2022 13:31:17 GMT
+Server: openresty
+Cache-Control: public, max-age=0
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 69645bb458782dec0a1c5e847f5ab668.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: RV3xrkfOxIBOucxIEoDLdyvyh-WB_h-RxjvsDpRj93sxWnp8MJdUFQ==
+Vary: Origin
+
+{
+    "success": false,
+    "status_code": 18,
+    "status_message": "Value too high: Value must be less than, or equal to 10.0."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC08_verifyErrorResponse_ForValue_EqualTo0_ValidPayload" classname="com.tmdb.tests.PostRateMovieTests" time="0.323">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.themoviedb.org/3/movie/851644/rating?session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b&api_key=8f27fe80f784cc088d44f642e123af30
+Proxy:			<none>
+Request params:	<none>
+Query params:	session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b
+				api_key=8f27fe80f784cc088d44f642e123af30
+Form params:	<none>
+Path params:	movie_id=851644
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": 0.0
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json;charset=utf-8
+Content-Length: 100
+Connection: keep-alive
+Date: Mon, 21 Nov 2022 13:31:17 GMT
+Server: openresty
+Cache-Control: public, max-age=0
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 b659698cbd95f9b95d04318d44a078d0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: BSxygkf0i-qS81sayxlgffxrRJ23Jy7YRYm_1ZVEW6ffqfmVqIIMYQ==
+Vary: Origin
+
+{
+    "success": false,
+    "status_code": 18,
+    "status_message": "Value too low: Value must be greater than 0.0."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC09_verifyErrorResponse_ForValue_LessThan0_ValidPayload" classname="com.tmdb.tests.PostRateMovieTests" time="0.294">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.themoviedb.org/3/movie/851644/rating?session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b&api_key=8f27fe80f784cc088d44f642e123af30
+Proxy:			<none>
+Request params:	<none>
+Query params:	session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b
+				api_key=8f27fe80f784cc088d44f642e123af30
+Form params:	<none>
+Path params:	movie_id=851644
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": -1.0
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json;charset=utf-8
+Content-Length: 100
+Connection: keep-alive
+Date: Mon, 21 Nov 2022 13:31:18 GMT
+Server: openresty
+Cache-Control: public, max-age=0
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 ed586b9973c98206ecc23bb42ae18362.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: q4q4DykRJ7gy_6MGpBGygLHEQ4-ODybMbK1pllkWf5RPFY2uUXPj5g==
+Vary: Origin
+
+{
+    "success": false,
+    "status_code": 18,
+    "status_message": "Value too low: Value must be greater than 0.0."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC10_verifyErrorResponse_ForValue_DecimalValue_ValidPayload" classname="com.tmdb.tests.PostRateMovieTests" time="0.28">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.themoviedb.org/3/movie/851644/rating?session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b&api_key=8f27fe80f784cc088d44f642e123af30
+Proxy:			<none>
+Request params:	<none>
+Query params:	session_id=87f6bcae83f748255982058f35eb3d3af1e9d57b
+				api_key=8f27fe80f784cc088d44f642e123af30
+Form params:	<none>
+Path params:	movie_id=851644
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": 0.1
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json;charset=utf-8
+Content-Length: 103
+Connection: keep-alive
+Date: Mon, 21 Nov 2022 13:31:18 GMT
+Server: openresty
+Cache-Control: public, max-age=0
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 aaaf201cb48fd7269941be8318333cea.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL54-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: 5VVQorkUzLSpNNEMhi-3rmz1sHy6pILaSnuprnarI4use909TuTzvw==
+Vary: Origin
+
+{
+    "success": false,
+    "status_code": 18,
+    "status_message": "Value invalid: Values must be a multiple of 0.50."
 }
 ]]></system-out>
   </testcase>

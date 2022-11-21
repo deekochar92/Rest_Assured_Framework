@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.*;
 public class RateMoviePayload extends PropertyLoader {
     RateMovieRequest rateMovie = new RateMovieRequest();
 
-    public RateMovieResponse postRateMovie_AllFields_ValidPayload(int value, int movieID) throws IOException {
+    public RateMovieResponse postRateMovie_AllFields_ValidPayload(double value, int movieID) throws IOException {
         rateMovie.setValue(value);
         RateMovieResponse res = given().
                                         spec(getRequestSpec()).
@@ -28,6 +28,23 @@ public class RateMoviePayload extends PropertyLoader {
                                 then().
                                         spec(getResponseSpec()).
                                         statusCode(201).
+                                        extract().response().getBody().as(RateMovieResponse.class);
+        return res;
+    }
+
+    public RateMovieResponse postRateMovie_InvalidValue_InValidPayload(double value, int movieID) throws IOException {
+        rateMovie.setValue(value);
+        RateMovieResponse res = given().
+                                        spec(getRequestSpec()).
+                                        queryParam("session_id", initProperties().getProperty("session_id")).
+                                        queryParam("api_key", initProperties().getProperty("api_key")).
+                                when().
+                                        pathParam("movie_id", movieID).
+                                        body(rateMovie).
+                                        post(Endpoints.RATE_MOVIE).
+                                then().
+                                        spec(getResponseSpec()).
+                                        statusCode(400).
                                         extract().response().getBody().as(RateMovieResponse.class);
         return res;
     }

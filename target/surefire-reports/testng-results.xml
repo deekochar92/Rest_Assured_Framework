@@ -1,85 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="5" failed="4" skipped="0">
+<testng-results ignored="0" total="18" passed="16" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-16T18:47:50 IST" name="All Test Suite" finished-at="2022-11-16T18:48:00 IST" duration-ms="10357">
+  <suite started-at="2022-11-21T19:00:55 IST" name="All Test Suite" finished-at="2022-11-21T19:01:19 IST" duration-ms="24179">
     <groups>
     </groups>
-    <test started-at="2022-11-16T18:47:50 IST" name="C:/Users/Deepanshu/IdeaProjects/TMDB_BYNDER" finished-at="2022-11-16T18:48:00 IST" duration-ms="10357">
-      <class name="com.tmdb.api.tests.GetTopRatedMovieTests">
-        <test-method signature="verifyOKResponseForWithoutOptional_ValidPayload()[pri:0, instance:com.tmdb.api.tests.GetTopRatedMovieTests@3b8ee898]" started-at="2022-11-16T18:47:50 IST" name="verifyOKResponseForWithoutOptional_ValidPayload" description="Valid payload without optional fields - Should return 200 OK response" finished-at="2022-11-16T18:47:57 IST" duration-ms="7171" status="PASS">
+    <test started-at="2022-11-21T19:00:55 IST" name="C:/Users/Deepanshu/IdeaProjects/TMDB_BYNDER" finished-at="2022-11-21T19:01:19 IST" duration-ms="24179">
+      <class name="com.tmdb.tests.GetTopRatedMovieTests">
+        <test-method signature="TC01_verifyOKResponse_WithoutOptional_ValidPayload()[pri:0, instance:com.tmdb.tests.GetTopRatedMovieTests@78c7f9b3]" started-at="2022-11-21T19:00:55 IST" name="TC01_verifyOKResponse_WithoutOptional_ValidPayload" description="Valid payload without optional fields - Should return 200 OK response" finished-at="2022-11-21T19:01:10 IST" duration-ms="15339" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOKResponseForWithoutOptional_ValidPayload -->
-        <test-method signature="verifyOKResponseForAllFields_ValidPayload()[pri:0, instance:com.tmdb.api.tests.GetTopRatedMovieTests@3b8ee898]" started-at="2022-11-16T18:47:57 IST" name="verifyOKResponseForAllFields_ValidPayload" description="Valid payload with All fields - Should return 200 OK response" finished-at="2022-11-16T18:47:58 IST" duration-ms="273" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: <10508>
-     but: was <9675>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: <10508>
-     but: was <9675>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-at com.tmdb.api.tests.GetTopRatedMovieTests.verifyOKResponseForAllFields_ValidPayload(GetTopRatedMovieTests.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- TC01_verifyOKResponse_WithoutOptional_ValidPayload -->
+        <test-method signature="TC02_verifyOKResponse_AllFields_ValidPayload()[pri:0, instance:com.tmdb.tests.GetTopRatedMovieTests@78c7f9b3]" started-at="2022-11-21T19:01:11 IST" name="TC02_verifyOKResponse_AllFields_ValidPayload" description="Valid payload with All fields - Should return 200 OK response" finished-at="2022-11-21T19:01:11 IST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOKResponseForAllFields_ValidPayload -->
-        <test-method signature="verifyErrorResponseForWithoutAPIKey_InValidPayload()[pri:0, instance:com.tmdb.api.tests.GetTopRatedMovieTests@3b8ee898]" started-at="2022-11-16T18:47:58 IST" name="verifyErrorResponseForWithoutAPIKey_InValidPayload" description="InValid payload without APIKey - Should return 401 error response" finished-at="2022-11-16T18:47:58 IST" duration-ms="409" status="PASS">
+        </test-method> <!-- TC02_verifyOKResponse_AllFields_ValidPayload -->
+        <test-method signature="TC03_verifyErrorResponse_WithoutAPIKey_InValidPayload()[pri:0, instance:com.tmdb.tests.GetTopRatedMovieTests@78c7f9b3]" started-at="2022-11-21T19:01:11 IST" name="TC03_verifyErrorResponse_WithoutAPIKey_InValidPayload" description="Invalid payload without APIKey - Should return 401 error response" finished-at="2022-11-21T19:01:12 IST" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyErrorResponseForWithoutAPIKey_InValidPayload -->
-        <test-method signature="verifyErrorResponseForInvalidAPIKey_InValidPayload()[pri:0, instance:com.tmdb.api.tests.GetTopRatedMovieTests@3b8ee898]" started-at="2022-11-16T18:47:58 IST" name="verifyErrorResponseForInvalidAPIKey_InValidPayload" description="InValid payload with Invalid APIKey - Should return 401 Unauthorised response" finished-at="2022-11-16T18:47:58 IST" duration-ms="337" status="PASS">
+        </test-method> <!-- TC03_verifyErrorResponse_WithoutAPIKey_InValidPayload -->
+        <test-method signature="TC04_verifyErrorResponse_InvalidAPIKey_InValidPayload()[pri:0, instance:com.tmdb.tests.GetTopRatedMovieTests@78c7f9b3]" started-at="2022-11-21T19:01:12 IST" name="TC04_verifyErrorResponse_InvalidAPIKey_InValidPayload" description="Invalid payload with Invalid APIKey - Should return 401 Unauthorised response" finished-at="2022-11-21T19:01:12 IST" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyErrorResponseForInvalidAPIKey_InValidPayload -->
-        <test-method signature="verifyErrorResponseForInvalidResource_InValidPayload()[pri:0, instance:com.tmdb.api.tests.GetTopRatedMovieTests@3b8ee898]" started-at="2022-11-16T18:47:58 IST" name="verifyErrorResponseForInvalidResource_InValidPayload" description="InValid resource url  - Should return 404 resource not found response" finished-at="2022-11-16T18:47:59 IST" duration-ms="303" status="PASS">
+        </test-method> <!-- TC04_verifyErrorResponse_InvalidAPIKey_InValidPayload -->
+        <test-method signature="TC05_verifyErrorResponse_InvalidResource_InValidPayload()[pri:0, instance:com.tmdb.tests.GetTopRatedMovieTests@78c7f9b3]" started-at="2022-11-21T19:01:12 IST" name="TC05_verifyErrorResponse_InvalidResource_InValidPayload" description="Invalid resource url  - Should return 404 resource not found response" finished-at="2022-11-21T19:01:13 IST" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyErrorResponseForInvalidResource_InValidPayload -->
-        <test-method signature="verifyErrorResponseForInvalidPageNumber_InValidPayload()[pri:0, instance:com.tmdb.api.tests.GetTopRatedMovieTests@3b8ee898]" started-at="2022-11-16T18:47:59 IST" name="verifyErrorResponseForInvalidPageNumber_InValidPayload" description="InValid payload with invalid page parameter  - Should return 422 error response" finished-at="2022-11-16T18:47:59 IST" duration-ms="310" status="PASS">
+        </test-method> <!-- TC05_verifyErrorResponse_InvalidResource_InValidPayload -->
+        <test-method signature="TC06_verifyErrorResponse_InvalidPageNumber_InValidPayload()[pri:0, instance:com.tmdb.tests.GetTopRatedMovieTests@78c7f9b3]" started-at="2022-11-21T19:01:13 IST" name="TC06_verifyErrorResponse_InvalidPageNumber_InValidPayload" description="Invalid payload with invalid page parameter  - Should return 422 error response" finished-at="2022-11-21T19:01:13 IST" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyErrorResponseForInvalidPageNumber_InValidPayload -->
-        <test-method signature="verifyErrorResponseForInvalidLanguage_InValidPayload()[pri:0, instance:com.tmdb.api.tests.GetTopRatedMovieTests@3b8ee898]" started-at="2022-11-16T18:47:59 IST" name="verifyErrorResponseForInvalidLanguage_InValidPayload" description="InValid payload with invalid Language parameter  - Should return 400 error response" finished-at="2022-11-16T18:47:59 IST" duration-ms="204" status="FAIL">
+        </test-method> <!-- TC06_verifyErrorResponse_InvalidPageNumber_InValidPayload -->
+        <test-method signature="TC07_verifyErrorResponse_InvalidLanguage_InValidPayload()[pri:0, instance:com.tmdb.tests.GetTopRatedMovieTests@78c7f9b3]" started-at="2022-11-21T19:01:13 IST" name="TC07_verifyErrorResponse_InvalidLanguage_InValidPayload" description="Invalid payload with invalid Language parameter  - Should return 400 error response" finished-at="2022-11-21T19:01:14 IST" duration-ms="662" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -117,8 +69,8 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at com.tmdb.payloads.TopRatedPayload.getTopRatedMoviesInvalidLanguage_InValidPayload(TopRatedPayload.java:102)
-at com.tmdb.api.tests.GetTopRatedMovieTests.verifyErrorResponseForInvalidLanguage_InValidPayload(GetTopRatedMovieTests.java:55)
+at com.tmdb.payloads.TopRatedPayload.getTopRatedMoviesInvalidLanguage_InValidPayload(TopRatedPayload.java:104)
+at com.tmdb.tests.GetTopRatedMovieTests.TC07_verifyErrorResponse_InvalidLanguage_InValidPayload(GetTopRatedMovieTests.java:69)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -156,8 +108,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyErrorResponseForInvalidLanguage_InValidPayload -->
-        <test-method signature="verifyErrorResponseForInvalidRegion_InValidPayload()[pri:0, instance:com.tmdb.api.tests.GetTopRatedMovieTests@3b8ee898]" started-at="2022-11-16T18:47:59 IST" name="verifyErrorResponseForInvalidRegion_InValidPayload" description="InValid payload with invalid Region parameter  - Should return 400 error response" finished-at="2022-11-16T18:47:59 IST" duration-ms="123" status="FAIL">
+        </test-method> <!-- TC07_verifyErrorResponse_InvalidLanguage_InValidPayload -->
+        <test-method signature="TC08_verifyErrorResponse_InvalidRegion_InValidPayload()[pri:0, instance:com.tmdb.tests.GetTopRatedMovieTests@78c7f9b3]" started-at="2022-11-21T19:01:14 IST" name="TC08_verifyErrorResponse_InvalidRegion_InValidPayload" description="Invalid payload with invalid Region parameter  - Should return 400 error response" finished-at="2022-11-21T19:01:14 IST" duration-ms="240" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -193,8 +145,8 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at com.tmdb.payloads.TopRatedPayload.getTopRatedMoviesInvalidRegion_InValidPayload(TopRatedPayload.java:117)
-at com.tmdb.api.tests.GetTopRatedMovieTests.verifyErrorResponseForInvalidRegion_InValidPayload(GetTopRatedMovieTests.java:60)
+at com.tmdb.payloads.TopRatedPayload.getTopRatedMoviesInvalidRegion_InValidPayload(TopRatedPayload.java:118)
+at com.tmdb.tests.GetTopRatedMovieTests.TC08_verifyErrorResponse_InvalidRegion_InValidPayload(GetTopRatedMovieTests.java:75)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -232,62 +184,50 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyErrorResponseForInvalidRegion_InValidPayload -->
-      </class> <!-- com.tmdb.api.tests.GetTopRatedMovieTests -->
-      <class name="com.tmdb.api.tests.PostRateMovieTests">
-        <test-method signature="verifyOKResponseForValidPayload()[pri:0, instance:com.tmdb.api.tests.PostRateMovieTests@4cee7fa0]" started-at="2022-11-16T18:47:59 IST" name="verifyOKResponseForValidPayload" finished-at="2022-11-16T18:48:00 IST" duration-ms="881" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: <true>
-     but: was <false>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: <true>
-     but: was <false>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-at com.tmdb.api.tests.PostRateMovieTests.verifyOKResponseForValidPayload(PostRateMovieTests.java:17)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- TC08_verifyErrorResponse_InvalidRegion_InValidPayload -->
+      </class> <!-- com.tmdb.tests.GetTopRatedMovieTests -->
+      <class name="com.tmdb.tests.PostRateMovieTests">
+        <test-method signature="TC01_verifyOKResponse_ForAllFields_ValidPayload()[pri:0, instance:com.tmdb.tests.PostRateMovieTests@4a183d02]" started-at="2022-11-21T19:01:14 IST" name="TC01_verifyOKResponse_ForAllFields_ValidPayload" description="TC01 Valid payload  - Should return 200 OK response" finished-at="2022-11-21T19:01:16 IST" duration-ms="1616" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOKResponseForValidPayload -->
-      </class> <!-- com.tmdb.api.tests.PostRateMovieTests -->
+        </test-method> <!-- TC01_verifyOKResponse_ForAllFields_ValidPayload -->
+        <test-method signature="TC02_verifyErrorResponse_ForWithoutAPIKey_InValidPayload()[pri:0, instance:com.tmdb.tests.PostRateMovieTests@4a183d02]" started-at="2022-11-21T19:01:16 IST" name="TC02_verifyErrorResponse_ForWithoutAPIKey_InValidPayload" description="TC02 Invalid payload without apikey  - Should return 401 Unauthorised response" finished-at="2022-11-21T19:01:16 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_verifyErrorResponse_ForWithoutAPIKey_InValidPayload -->
+        <test-method signature="TC03_verifyErrorResponse_ForWithoutSessionID_InValidPayload()[pri:0, instance:com.tmdb.tests.PostRateMovieTests@4a183d02]" started-at="2022-11-21T19:01:16 IST" name="TC03_verifyErrorResponse_ForWithoutSessionID_InValidPayload" description="TC03 Invalid payload without sessionID  - Should return 401 Unauthorised response" finished-at="2022-11-21T19:01:17 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_verifyErrorResponse_ForWithoutSessionID_InValidPayload -->
+        <test-method signature="TC04_verifyErrorResponse_ForInvalidMovieID_InValidPayload()[pri:0, instance:com.tmdb.tests.PostRateMovieTests@4a183d02]" started-at="2022-11-21T19:01:17 IST" name="TC04_verifyErrorResponse_ForInvalidMovieID_InValidPayload" description="TC04 Invalid payload with invalid movieID  - Should return 404 Resource not found response" finished-at="2022-11-21T19:01:17 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_verifyErrorResponse_ForInvalidMovieID_InValidPayload -->
+        <test-method signature="TC05_verifyErrorResponse_ForInvalidSessionID_InValidPayload()[pri:0, instance:com.tmdb.tests.PostRateMovieTests@4a183d02]" started-at="2022-11-21T19:01:17 IST" name="TC05_verifyErrorResponse_ForInvalidSessionID_InValidPayload" description="TC05 Invalid payload with invalid sessionID  - Should return 401 Unauthorised response" finished-at="2022-11-21T19:01:17 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_verifyErrorResponse_ForInvalidSessionID_InValidPayload -->
+        <test-method signature="TC06_verifyErrorResponse_ForInvalidApiKey_InValidPayload()[pri:0, instance:com.tmdb.tests.PostRateMovieTests@4a183d02]" started-at="2022-11-21T19:01:17 IST" name="TC06_verifyErrorResponse_ForInvalidApiKey_InValidPayload" description="TC06 Invalid payload with invalid APIKey  - Should return 401 Unauthorised response" finished-at="2022-11-21T19:01:18 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_verifyErrorResponse_ForInvalidApiKey_InValidPayload -->
+        <test-method signature="TC07_verifyErrorResponse_ForValue_GreaterThan10_ValidPayload()[pri:0, instance:com.tmdb.tests.PostRateMovieTests@4a183d02]" started-at="2022-11-21T19:01:18 IST" name="TC07_verifyErrorResponse_ForValue_GreaterThan10_ValidPayload" description="TC07 Invalid payload with value &gt; 10  - Should return 400 bad request response" finished-at="2022-11-21T19:01:18 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_verifyErrorResponse_ForValue_GreaterThan10_ValidPayload -->
+        <test-method signature="TC08_verifyErrorResponse_ForValue_EqualTo0_ValidPayload()[pri:0, instance:com.tmdb.tests.PostRateMovieTests@4a183d02]" started-at="2022-11-21T19:01:18 IST" name="TC08_verifyErrorResponse_ForValue_EqualTo0_ValidPayload" description="TC08 Invalid payload with value = 10  - Should return 400 bad request response" finished-at="2022-11-21T19:01:18 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_verifyErrorResponse_ForValue_EqualTo0_ValidPayload -->
+        <test-method signature="TC09_verifyErrorResponse_ForValue_LessThan0_ValidPayload()[pri:0, instance:com.tmdb.tests.PostRateMovieTests@4a183d02]" started-at="2022-11-21T19:01:18 IST" name="TC09_verifyErrorResponse_ForValue_LessThan0_ValidPayload" description="TC09 Invalid payload with value &lt; 0  - Should return 400 bad request response" finished-at="2022-11-21T19:01:18 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_verifyErrorResponse_ForValue_LessThan0_ValidPayload -->
+        <test-method signature="TC10_verifyErrorResponse_ForValue_DecimalValue_ValidPayload()[pri:0, instance:com.tmdb.tests.PostRateMovieTests@4a183d02]" started-at="2022-11-21T19:01:18 IST" name="TC10_verifyErrorResponse_ForValue_DecimalValue_ValidPayload" description="TC10 Invalid payload with value = 0.1  - Should return 400 bad request response" finished-at="2022-11-21T19:01:19 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_verifyErrorResponse_ForValue_DecimalValue_ValidPayload -->
+      </class> <!-- com.tmdb.tests.PostRateMovieTests -->
     </test> <!-- C:/Users/Deepanshu/IdeaProjects/TMDB_BYNDER -->
   </suite> <!-- All Test Suite -->
 </testng-results>

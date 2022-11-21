@@ -1,2 +1,2 @@
-com\tmdb\api\tests\GetTopRatedMovieTests.class
-com\tmdb\api\tests\PostRateMovieTests.class
+com\tmdb\tests\GetTopRatedMovieTests.class
+com\tmdb\tests\PostRateMovieTests.class

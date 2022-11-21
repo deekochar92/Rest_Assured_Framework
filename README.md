@@ -79,7 +79,13 @@ https://github.com/deekochar92/TMDB_BYNDER.git
 ```
 mvn clean test
 ```
+## Generate Allure Report
 
+```
+allure generate allure-results --clean -o allure-report
+
+```
+Report would be available at :  allure-report/index.html
 
 ## Docker Setup
 
